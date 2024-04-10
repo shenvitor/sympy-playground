@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 .pixi/
+_build/
 node_modules/
