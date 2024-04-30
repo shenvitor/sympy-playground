@@ -2,9 +2,12 @@
 
 name: MyST GitHub Pages Deploy
 on:
+  pull_request:
+    branches: [main]
   push:
     # Runs on pushes targeting the default branch
     branches: [main]
+
 env:
   # `BASE_URL` determines the website is served from, including CSS & JS assets
   # You may need to change this to `BASE_URL: ''`
